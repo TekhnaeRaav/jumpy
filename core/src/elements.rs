@@ -9,6 +9,7 @@ pub mod kick_bomb;
 pub mod mine;
 pub mod musket;
 pub mod player_spawner;
+pub mod snail;
 pub mod slippery_seaweed;
 pub mod sproinger;
 pub mod stomp_boots;
@@ -46,6 +47,7 @@ pub fn install(session: &mut GameSession) {
     sword::install(session);
     grenade::install(session);
     crab::install(session);
+    snail::install(session);
     fish_school::install(session);
     kick_bomb::install(session);
     mine::install(session);
